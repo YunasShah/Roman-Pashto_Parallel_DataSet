@@ -232,9 +232,9 @@ The repository contains two major data resources.
 
 ---
 
-## 1. `RomanRemovedsntcs15.txt`
+## 1. `Main_Dataset_for_Training_71K.txt`
 
-`RomanRemovedsntcs15.txt` is the **final parallel dataset used by the main BiLSTM training code**.
+`Main_Dataset_for_Training_71K.txt` is the **final parallel dataset used by the main BiLSTM training code**.
 
 The file contains aligned Native Pashto and Roman Pashto sentences.
 
@@ -372,7 +372,7 @@ This resource was developed to capture the variation that exists in Roman Pashto
 The main model is trained using:
 
 ```text
-RomanRemovedsntcs15.txt
+Main_Dataset_for_Training_71K.txt
 ```
 
 The manually annotated `Top_12858_Txt.txt` resource is provided separately and can support future research involving Roman Pashto spelling variation and transliteration.
@@ -425,7 +425,7 @@ Roman-Pashto_Parallel_DataSet/
 │
 ├── BiLSTM_150_with_dataSplits70_15_15.ipynb
 │
-├── RomanRemovedsntcs15.txt
+├── Main_Dataset_for_Training_71K.txt
 │
 ├── Top_12858_Txt.txt
 │
@@ -443,7 +443,7 @@ Roman-Pashto_Parallel_DataSet/
 | File                                       | Description                                                                                       |
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------- |
 | `BiLSTM_150_with_dataSplits70_15_15.ipynb` | Main notebook containing the BiLSTM model training and evaluation workflow                        |
-| `RomanRemovedsntcs15.txt`                  | Final parallel Native Pashto–Roman Pashto sentence dataset used for training                      |
+| `Main_Dataset_for_Training_71K.txt`                  | Final parallel Native Pashto–Roman Pashto sentence dataset used for training                      |
 | `Top_12858_Txt.txt`                        | Manually annotated word-level resource containing multiple Roman variants for 12,858 Pashto words |
 | `Seq2Seq6_fast_Complt1.keras`              | Final trained BiLSTM/CTC Keras model                                                              |
 | `vocab_fast_Complt1.json`                  | Vocabulary and character-mapping information required by the trained model                        |
@@ -766,7 +766,7 @@ using Google Colab, Kaggle, or Jupyter Notebook.
 Make sure:
 
 ```text
-RomanRemovedsntcs15.txt
+Main_Dataset_for_Training_71K.txt
 ```
 
 is available at the path expected by the notebook.
@@ -914,7 +914,7 @@ Main model training notebook:
 
 Main training dataset:
 
-`RomanRemovedsntcs15.txt`
+`Main_Dataset_for_Training_71K5.txt`
 
 Manually annotated resource:
 
